@@ -1,0 +1,76 @@
+.search-form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-form-elem {
+    padding: 0.8rem 2.0rem;
+    border-radius: 3.8rem;
+    opacity: 0.8;
+}
+
+.search-form-elem .form-control {
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+
+.search-form-elem .form-control::placeholder {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS styles for the dropdown container */
+.real-time-results {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    /* Added shadow */
+    z-index: 1;
+    max-height: 150px;
+    /* Set a maximum height for the dropdown */
+    overflow-y: auto;
+    /* Enable vertical scrolling if needed */
+    margin-top: 0;
+    /* No space between search bar and results */
+    opacity: 0.6;
+    align-items: center;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.real-time-list {
+    font-size: 10px;
+}
+
+.real-time-results li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+/* CSS styles for links in search results */
+.real-time-results li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the link on hover */
+.real-time-results li a:hover {
+    background-color: #f0f0f0;
+}

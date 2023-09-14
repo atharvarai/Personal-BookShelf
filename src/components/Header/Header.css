@@ -1,0 +1,23 @@
+.header{
+    background: linear-gradient(rgba(39, 147, 174, 0.3), rgba(52, 216, 172, 0.5)),
+    url("../../images/library-img.jpg") center/cover no-repeat;
+}
+
+
+.header-content {
+    flex-direction: column;
+    min-height: 55vh;
+  }
+  
+  .header-title {
+    font-size: 4.2rem;
+    margin-top: -100px;
+  }
+  
+  .header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    width: 50%;
+  }
+  
