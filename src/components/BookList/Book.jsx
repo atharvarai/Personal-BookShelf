@@ -45,8 +45,8 @@ const Book = (book) => {
       <button
         type='button'
         onClick={handleAddToBookshelf}
-        className='add-to-bookshelf-button'
-      >
+        className={`add-to-bookshelf-button ${isBookInBookshelf ? 'remove-from-bookshelf-button' : ''}`}
+>
         {isBookInBookshelf ? 'Remove from Bookshelf' : 'Add to Bookshelf'}
       </button>
     </div>
